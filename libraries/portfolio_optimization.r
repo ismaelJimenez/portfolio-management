@@ -11,8 +11,7 @@ stopifnot("package:quadprog" %in% search()  ||  require("quadprog",quietly = TRU
 
 source("http://faculty.washington.edu/ezivot/econ424/portfolio_noshorts.r")
 
-efficient.portfolio.risk <-
-  function(er, cov.mat, target.risk, shorts=TRUE)
+efficient.portfolio.risk <- function(er, cov.mat, target.risk, shorts=TRUE)
 {
   incr <- 0.0001
   e.port <- globalMin.portfolio(er, cov.mat, shorts)
