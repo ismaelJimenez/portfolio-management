@@ -4,8 +4,8 @@
 # last updated: September 25, 2016 by Ismael Jimenez
 #
 # Functions:
-#	1. efficient.portfolio.risk			compute minimum variance portfolio
-#							                    subject to target risk
+#	1. efficient.portfolio.risk    compute minimum variance portfolio
+#                                subject to target risk
 
 stopifnot("package:quadprog" %in% search()  ||  require("quadprog",quietly = TRUE) )
 
