@@ -13,7 +13,7 @@ source("http://faculty.washington.edu/ezivot/econ424/portfolio_noshorts.r")
 
 efficient.portfolio.risk <- function(er, cov.mat, target.risk, shorts=TRUE)
 {
-  incr <- 0.0001
+  incr <- 0.00001
   e.port <- globalMin.portfolio(er, cov.mat, shorts)
   currentEr <- as.numeric(e.port["er"])
   currentSd <- as.numeric(e.port["sd"])
