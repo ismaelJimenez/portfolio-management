@@ -28,9 +28,8 @@ efficient.portfolio.risk <- function(er, cov.mat, target.risk, shorts=TRUE)
   e.port
 }
 
-getSymbol.monthly = function(ticker, from = "1927-01-01") {
+getReturns.monthly = function(ticker, from = "1927-01-01") {
   getSymbols(ticker, from = as.Date(from))
-  ticker <- to.monthly(get(ticker))
-  names(ticker) = c("Open", "High", "Low", "Close", "Volume", "Adjusted")
+  ticker <- monthlyReturn(get(ticker))
   ticker
 }
