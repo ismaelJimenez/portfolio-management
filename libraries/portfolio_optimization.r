@@ -8,6 +8,7 @@
 #                                subject to target risk
 
 stopifnot("package:quadprog" %in% search()  ||  require("quadprog",quietly = TRUE) )
+stopifnot("package:quantmod" %in% search()  ||  require("quantmod",quietly = TRUE) )
 
 source("http://faculty.washington.edu/ezivot/econ424/portfolio_noshorts.r")
 
@@ -25,4 +26,11 @@ efficient.portfolio.risk <- function(er, cov.mat, target.risk, shorts=TRUE)
     currentSd <- as.numeric(e.port["sd"])
   }
   e.port
+}
+
+getSymbol.monthly = function(ticker) {
+  getSymbols(ticker)
+  ticker <- to.monthly(get(ticker))
+  names(ticker) = c("Open", "High", "Low", "Close", "Volume", "Adjusted")
+  ticker
 }

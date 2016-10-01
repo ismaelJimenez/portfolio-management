@@ -37,7 +37,7 @@ e.port.long <- efficient.portfolio.risk(er=er,cov.mat=covmat, target.risk=target
 summary(e.port.long, risk.free=r.free)
 plot(e.port.long, col="blue")
 
-stopifnot(as.numeric(e.port.long["er"]) > 0.012 && as.numeric(e.port.long["er"]) < 0.013)
+stopifnot(as.numeric(e.port.long["er"]) > 0.011 && as.numeric(e.port.long["er"]) < 0.012)
 stopifnot(as.numeric(e.port.long["sd"]) > 0.043 && as.numeric(e.port.long["sd"]) < 0.044)
 
 # Question 2.  Suppose that you're currently 100% invested in large stocks and you CAN SHORT.
@@ -62,3 +62,4 @@ plot(tan.port.ns, col="blue")
 
 stopifnot(as.numeric(tan.port.ns["er"]) > 0.013 && as.numeric(tan.port.ns["er"]) < 0.014)
 stopifnot(as.numeric(tan.port.ns["sd"]) > 0.049 && as.numeric(tan.port.ns["sd"]) < 0.050)
+
