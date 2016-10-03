@@ -1,2 +1,556 @@
-ticker,dividend
-a,4
+,,,,,,,,,,,,,,,,,,,
+,Currencies,,Languages,,Transactions,,Tickers,,,,,,,,,,,,
+,USD,,EN,,Buy,,S&P500,,,Vaguard ETFs,,,EUROSTOXX 30,,,,All Securities,All Tickers,All Asset Classes
+,EUR,,ESP,,Sell,,Ticker,Security,Asset Class,Ticker,Security,Asset Class,Ticker,Security,Asset Class,,,,
+,,,,,,,MMM,3M Company (MMM),US Stock,VIG,Vanguard Dividend Appreciation ETF (VIG),US Large-cap Stock ETFs,ABI.BR,Anheuser-Busch InBev (ABI.BR),Euro Stock,,3M Company (MMM),MMM,US Stock
+,,,,,,,ABT,Abbott Laboratories (ABT),US Stock,VUG,Vanguard Growth ETF (VUG),US Large-cap Stock ETFs,CA.PA,Carrefour SA (CA.PA),Euro Stock,,Abbott Laboratories (ABT),ABT,US Stock
+,,,,,,,ABBV,AbbVie (ABBV),US Stock,VYM,Vanguard High Dividend Yield ETF (VYM),US Large-cap Stock ETFs,AI.PA,Air Liquide SA (AI.PA),Euro Stock,,AbbVie (ABBV),ABBV,US Stock
+,,,,,,,ACN,Accenture plc (ACN),US Stock,VV,Vanguard Large-Cap ETF (VV),US Large-cap Stock ETFs,ORA.PA,Orange (ORA.PA),Euro Stock,,Accenture plc (ACN),ACN,US Stock
+,,,,,,,ATVI,Activision Blizzard (ATVI),US Stock,MGC,Vanguard Mega Cap ETF (MGC),US Large-cap Stock ETFs,ENEL.MI,Enel SpA (ENEL.MI),Euro Stock,,Activision Blizzard (ATVI),ATVI,US Stock
+,,,,,,,AYI,Acuity Brands Inc (AYI),US Stock,MGK,Vanguard Mega Cap Growth ETF (MGK),US Large-cap Stock ETFs,PHIA.AS,PHILIPS KON (PHIA.AS),Euro Stock,,Acuity Brands Inc (AYI),AYI,US Stock
+,,,,,,,ADBE,Adobe Systems Inc (ADBE),US Stock,MGV,Vanguard Mega Cap Value ETF (MGV),US Large-cap Stock ETFs,DTE.DE,Deutsche Telekom AG (DTE.DE),Euro Stock,,Adobe Systems Inc (ADBE),ADBE,US Stock
+,,,,,,,AAP,Advance Auto Parts (AAP),US Stock,VOO,Vanguard S&P 500 ETF (VOO),US Large-cap Stock ETFs,EI.PA,Essilor International SA (EI.PA),Euro Stock,,Advance Auto Parts (AAP),AAP,US Stock
+,,,,,,,AES,AES Corp (AES),US Stock,VTI,Vanguard Total Stock Market ETF (VTI),US Large-cap Stock ETFs,IBE.MC,IBERDROLA (IBE.MC),Euro Stock,,AES Corp (AES),AES,US Stock
+,,,,,,,AET,Aetna Inc (AET),US Stock,VTV,Vanguard Value ETF (VTV),US Large-cap Stock ETFs,OR.PA,L'Oreal SA (OR.PA),Euro Stock,,Aetna Inc (AET),AET,US Stock
+,,,,,,,AFL,AFLAC Inc (AFL),US Stock,VXF,Vanguard Extended Market ETF (VXF),US Mid-cap Stock ETFs,BN.PA,Danone (BN.PA),Euro Stock,,AFLAC Inc (AFL),AFL,US Stock
+,,,,,,,AMG,Affiliated Managers Group Inc (AMG),US Stock,VO,Vanguard Mid-Cap ETF (VO),US Mid-cap Stock ETFs,SU.PA,Schneider Electric SE (SU.PA),Euro Stock,,Affiliated Managers Group Inc (AMG),AMG,US Stock
+,,,,,,,A,Agilent Technologies Inc (A),US Stock,VOT,Vanguard Mid-Cap Growth ETF (VOT),US Mid-cap Stock ETFs,ITX.MC,INDITEX (ITX.MC),Euro Stock,,Agilent Technologies Inc (A),A,US Stock
+,,,,,,,APD,Air Products & Chemicals Inc (APD),US Stock,VOE,Vanguard Mid-Cap Value ETF (VOE),US Mid-cap Stock ETFs,SAF.PA,Safran SA (SAF.PA),Euro Stock,,Air Products & Chemicals Inc (APD),APD,US Stock
+,,,,,,,AKAM,Akamai Technologies Inc (AKAM),US Stock,VB,Vanguard Small-Cap ETF (VB),US Small-cap Stock ETFs,SAN.PA,Sanofi (SAN.PA),Euro Stock,,Akamai Technologies Inc (AKAM),AKAM,US Stock
+,,,,,,,ALK,Alaska Air Group Inc (ALK),US Stock,VBK,Vanguard Small-Cap Growth ETF (VBK),US Small-cap Stock ETFs,BBVA.MC,BBVA (BBVA.MC),Euro Stock,,Alaska Air Group Inc (ALK),ALK,US Stock
+,,,,,,,ALB,Albemarle Corp (ALB),US Stock,VBR,Vanguard Small-Cap Value ETF (VBR),US Small-cap Stock ETFs,ALV.DE,Allianz SE (ALV.DE),Euro Stock,,Albemarle Corp (ALB),ALB,US Stock
+,,,,,,,AA,Alcoa Inc (AA),US Stock,,,,ENGI.PA,ENGIE SA (ENGI.PA),Euro Stock,,Alcoa Inc (AA),AA,US Stock
+,,,,,,,AGN,Allergan plc (AGN),US Stock,,,,MC.PA,LVMH Moët Hennessy Louis Vuitton (MC.PA),Euro Stock,,Allergan plc (AGN),AGN,US Stock
+,,,,,,,LNT,Alliant Energy Corp (LNT),US Stock,,,,ENI.MI,Eni SpA (ENI.MI),Euro Stock,,Alliant Energy Corp (LNT),LNT,US Stock
+,,,,,,,ALXN,Alexion Pharmaceuticals (ALXN),US Stock,,,,BNP.PA,BNP Paribas SA (BNP.PA),Euro Stock,,Alexion Pharmaceuticals (ALXN),ALXN,US Stock
+,,,,,,,ALLE,Allegion (ALLE),US Stock,,,,G.MI,Assicurazioni Generali (G.MI),Euro Stock,,Allegion (ALLE),ALLE,US Stock
+,,,,,,,ADS,Alliance Data Systems (ADS),US Stock,,,,DPW.DE,Deutsche Post AG (DPW.DE),Euro Stock,,Alliance Data Systems (ADS),ADS,US Stock
+,,,,,,,ALL,Allstate Corp (ALL),US Stock,,,,AIR.PA,Airbus Group SE (AIR.PA),Euro Stock,,Allstate Corp (ALL),ALL,US Stock
+,,,,,,,GOOGL,Alphabet Inc Class A (GOOGL),US Stock,,,,ASML.AS,ASML HOLDING (ASML.AS),Euro Stock,,Alphabet Inc Class A (GOOGL),GOOGL,US Stock
+,,,,,,,GOOG,Alphabet Inc Class C (GOOG),US Stock,,,,INGA.AS,ING GROEP (INGA.AS),Euro Stock,,Alphabet Inc Class C (GOOG),GOOG,US Stock
+,,,,,,,MO,Altria Group Inc (MO),US Stock,,,,BAYN.DE,Bayer AG (BAYN.DE),Euro Stock,,Altria Group Inc (MO),MO,US Stock
+,,,,,,,AMZN,Amazon.com Inc (AMZN),US Stock,,,,FRE.DE,Fresenius SE & Co (FRE.DE),Euro Stock,,Amazon.com Inc (AMZN),AMZN,US Stock
+,,,,,,,AEE,Ameren Corp (AEE),US Stock,,,,BMW.DE,Bayerische Motoren Werke Aktiengesellschaft (BMW.DE),Euro Stock,,Ameren Corp (AEE),AEE,US Stock
+,,,,,,,AAL,American Airlines Group (AAL),US Stock,,,,DBK.DE,Deutsche Bank AG (DBK.DE),Euro Stock,,American Airlines Group (AAL),AAL,US Stock
+,,,,,,,AEP,American Electric Power (AEP),US Stock,,,,,,,,American Electric Power (AEP),AEP,US Stock
+,,,,,,,AXP,American Express Co (AXP),US Stock,,,,,,,,American Express Co (AXP),AXP,US Stock
+,,,,,,,AIG,"American International Group, Inc. (AIG)",US Stock,,,,,,,,"American International Group, Inc. (AIG)",AIG,US Stock
+,,,,,,,AMT,American Tower Corp A (AMT),US Stock,,,,,,,,American Tower Corp A (AMT),AMT,US Stock
+,,,,,,,AWK,American Water Works Company Inc (AWK),US Stock,,,,,,,,American Water Works Company Inc (AWK),AWK,US Stock
+,,,,,,,AMP,Ameriprise Financial (AMP),US Stock,,,,,,,,Ameriprise Financial (AMP),AMP,US Stock
+,,,,,,,ABC,AmerisourceBergen Corp (ABC),US Stock,,,,,,,,AmerisourceBergen Corp (ABC),ABC,US Stock
+,,,,,,,AME,Ametek (AME),US Stock,,,,,,,,Ametek (AME),AME,US Stock
+,,,,,,,AMGN,Amgen Inc (AMGN),US Stock,,,,,,,,Amgen Inc (AMGN),AMGN,US Stock
+,,,,,,,APH,Amphenol Corp A (APH),US Stock,,,,,,,,Amphenol Corp A (APH),APH,US Stock
+,,,,,,,APC,Anadarko Petroleum Corp (APC),US Stock,,,,,,,,Anadarko Petroleum Corp (APC),APC,US Stock
+,,,,,,,ADI,"Analog Devices, Inc. (ADI)",US Stock,,,,,,,,"Analog Devices, Inc. (ADI)",ADI,US Stock
+,,,,,,,ANTM,Anthem Inc. (ANTM),US Stock,,,,,,,,Anthem Inc. (ANTM),ANTM,US Stock
+,,,,,,,AON,Aon plc (AON),US Stock,,,,,,,,Aon plc (AON),AON,US Stock
+,,,,,,,APA,Apache Corporation (APA),US Stock,,,,,,,,Apache Corporation (APA),APA,US Stock
+,,,,,,,AIV,Apartment Investment & Mgmt (AIV),US Stock,,,,,,,,Apartment Investment & Mgmt (AIV),AIV,US Stock
+,,,,,,,AAPL,Apple Inc. (AAPL),US Stock,,,,,,,,Apple Inc. (AAPL),AAPL,US Stock
+,,,,,,,AMAT,Applied Materials Inc (AMAT),US Stock,,,,,,,,Applied Materials Inc (AMAT),AMAT,US Stock
+,,,,,,,ADM,Archer-Daniels-Midland Co (ADM),US Stock,,,,,,,,Archer-Daniels-Midland Co (ADM),ADM,US Stock
+,,,,,,,AJG,Arthur J. Gallagher & Co. (AJG),US Stock,,,,,,,,Arthur J. Gallagher & Co. (AJG),AJG,US Stock
+,,,,,,,AIZ,Assurant Inc (AIZ),US Stock,,,,,,,,Assurant Inc (AIZ),AIZ,US Stock
+,,,,,,,T,AT&T Inc (T),US Stock,,,,,,,,AT&T Inc (T),T,US Stock
+,,,,,,,ADSK,Autodesk Inc (ADSK),US Stock,,,,,,,,Autodesk Inc (ADSK),ADSK,US Stock
+,,,,,,,ADP,Automatic Data Processing (ADP),US Stock,,,,,,,,Automatic Data Processing (ADP),ADP,US Stock
+,,,,,,,AN,AutoNation Inc (AN),US Stock,,,,,,,,AutoNation Inc (AN),AN,US Stock
+,,,,,,,AZO,AutoZone Inc (AZO),US Stock,,,,,,,,AutoZone Inc (AZO),AZO,US Stock
+,,,,,,,AVGO,Avago Technologies (AVGO),US Stock,,,,,,,,Avago Technologies (AVGO),AVGO,US Stock
+,,,,,,,AVB,"AvalonBay Communities, Inc. (AVB)",US Stock,,,,,,,,"AvalonBay Communities, Inc. (AVB)",AVB,US Stock
+,,,,,,,AVY,Avery Dennison Corp (AVY),US Stock,,,,,,,,Avery Dennison Corp (AVY),AVY,US Stock
+,,,,,,,BHI,Baker Hughes Inc (BHI),US Stock,,,,,,,,Baker Hughes Inc (BHI),BHI,US Stock
+,,,,,,,BLL,Ball Corp (BLL),US Stock,,,,,,,,Ball Corp (BLL),BLL,US Stock
+,,,,,,,BAC,Bank of America Corp (BAC),US Stock,,,,,,,,Bank of America Corp (BAC),BAC,US Stock
+,,,,,,,BK,The Bank of New York Mellon Corp. (BK),US Stock,,,,,,,,The Bank of New York Mellon Corp. (BK),BK,US Stock
+,,,,,,,BCR,Bard (C.R.) Inc. (BCR),US Stock,,,,,,,,Bard (C.R.) Inc. (BCR),BCR,US Stock
+,,,,,,,BAX,Baxter International Inc. (BAX),US Stock,,,,,,,,Baxter International Inc. (BAX),BAX,US Stock
+,,,,,,,BBT,BB&T Corporation (BBT),US Stock,,,,,,,,BB&T Corporation (BBT),BBT,US Stock
+,,,,,,,BDX,Becton Dickinson (BDX),US Stock,,,,,,,,Becton Dickinson (BDX),BDX,US Stock
+,,,,,,,BBBY,Bed Bath & Beyond (BBBY),US Stock,,,,,,,,Bed Bath & Beyond (BBBY),BBBY,US Stock
+,,,,,,,BRK-B,Berkshire Hathaway (BRK-B),US Stock,,,,,,,,Berkshire Hathaway (BRK-B),BRK-B,US Stock
+,,,,,,,BBY,Best Buy Co. Inc. (BBY),US Stock,,,,,,,,Best Buy Co. Inc. (BBY),BBY,US Stock
+,,,,,,,BIIB,BIOGEN IDEC Inc. (BIIB),US Stock,,,,,,,,BIOGEN IDEC Inc. (BIIB),BIIB,US Stock
+,,,,,,,BLK,BlackRock (BLK),US Stock,,,,,,,,BlackRock (BLK),BLK,US Stock
+,,,,,,,HRB,Block H&R (HRB),US Stock,,,,,,,,Block H&R (HRB),HRB,US Stock
+,,,,,,,BA,Boeing Company (BA),US Stock,,,,,,,,Boeing Company (BA),BA,US Stock
+,,,,,,,BWA,BorgWarner (BWA),US Stock,,,,,,,,BorgWarner (BWA),BWA,US Stock
+,,,,,,,BXP,Boston Properties (BXP),US Stock,,,,,,,,Boston Properties (BXP),BXP,US Stock
+,,,,,,,BSX,Boston Scientific (BSX),US Stock,,,,,,,,Boston Scientific (BSX),BSX,US Stock
+,,,,,,,BMY,Bristol-Myers Squibb (BMY),US Stock,,,,,,,,Bristol-Myers Squibb (BMY),BMY,US Stock
+,,,,,,,BF-B,Brown-Forman Corporation (BF-B),US Stock,,,,,,,,Brown-Forman Corporation (BF-B),BF-B,US Stock
+,,,,,,,CHRW,C. H. Robinson Worldwide (CHRW),US Stock,,,,,,,,C. H. Robinson Worldwide (CHRW),CHRW,US Stock
+,,,,,,,CA,"CA, Inc. (CA)",US Stock,,,,,,,,"CA, Inc. (CA)",CA,US Stock
+,,,,,,,COG,Cabot Oil & Gas (COG),US Stock,,,,,,,,Cabot Oil & Gas (COG),COG,US Stock
+,,,,,,,CPB,Campbell Soup (CPB),US Stock,,,,,,,,Campbell Soup (CPB),CPB,US Stock
+,,,,,,,COF,Capital One Financial (COF),US Stock,,,,,,,,Capital One Financial (COF),COF,US Stock
+,,,,,,,CAH,Cardinal Health Inc. (CAH),US Stock,,,,,,,,Cardinal Health Inc. (CAH),CAH,US Stock
+,,,,,,,HSIC,Henry Schein (HSIC),US Stock,,,,,,,,Henry Schein (HSIC),HSIC,US Stock
+,,,,,,,KMX,Carmax Inc (KMX),US Stock,,,,,,,,Carmax Inc (KMX),KMX,US Stock
+,,,,,,,CCL,Carnival Corp. (CCL),US Stock,,,,,,,,Carnival Corp. (CCL),CCL,US Stock
+,,,,,,,CAT,Caterpillar Inc. (CAT),US Stock,,,,,,,,Caterpillar Inc. (CAT),CAT,US Stock
+,,,,,,,CBG,CBRE Group (CBG),US Stock,,,,,,,,CBRE Group (CBG),CBG,US Stock
+,,,,,,,CBS,CBS Corp. (CBS),US Stock,,,,,,,,CBS Corp. (CBS),CBS,US Stock
+,,,,,,,CELG,Celgene Corp. (CELG),US Stock,,,,,,,,Celgene Corp. (CELG),CELG,US Stock
+,,,,,,,CNC,Centene Corporation (CNC),US Stock,,,,,,,,Centene Corporation (CNC),CNC,US Stock
+,,,,,,,CNP,CenterPoint Energy (CNP),US Stock,,,,,,,,CenterPoint Energy (CNP),CNP,US Stock
+,,,,,,,CTL,CenturyLink Inc (CTL),US Stock,,,,,,,,CenturyLink Inc (CTL),CTL,US Stock
+,,,,,,,CERN,Cerner (CERN),US Stock,,,,,,,,Cerner (CERN),CERN,US Stock
+,,,,,,,CF,CF Industries Holdings Inc (CF),US Stock,,,,,,,,CF Industries Holdings Inc (CF),CF,US Stock
+,,,,,,,SCHW,Charles Schwab Corporation (SCHW),US Stock,,,,,,,,Charles Schwab Corporation (SCHW),SCHW,US Stock
+,,,,,,,CHTR,Charter Communications (CHTR),US Stock,,,,,,,,Charter Communications (CHTR),CHTR,US Stock
+,,,,,,,CHK,Chesapeake Energy (CHK),US Stock,,,,,,,,Chesapeake Energy (CHK),CHK,US Stock
+,,,,,,,CVX,Chevron Corp. (CVX),US Stock,,,,,,,,Chevron Corp. (CVX),CVX,US Stock
+,,,,,,,CMG,Chipotle Mexican Grill (CMG),US Stock,,,,,,,,Chipotle Mexican Grill (CMG),CMG,US Stock
+,,,,,,,CB,Chubb Limited (CB),US Stock,,,,,,,,Chubb Limited (CB),CB,US Stock
+,,,,,,,CHD,Church & Dwight (CHD),US Stock,,,,,,,,Church & Dwight (CHD),CHD,US Stock
+,,,,,,,CI,CIGNA Corp. (CI),US Stock,,,,,,,,CIGNA Corp. (CI),CI,US Stock
+,,,,,,,XEC,Cimarex Energy (XEC),US Stock,,,,,,,,Cimarex Energy (XEC),XEC,US Stock
+,,,,,,,CINF,Cincinnati Financial (CINF),US Stock,,,,,,,,Cincinnati Financial (CINF),CINF,US Stock
+,,,,,,,CTAS,Cintas Corporation (CTAS),US Stock,,,,,,,,Cintas Corporation (CTAS),CTAS,US Stock
+,,,,,,,CSCO,Cisco Systems (CSCO),US Stock,,,,,,,,Cisco Systems (CSCO),CSCO,US Stock
+,,,,,,,C,Citigroup Inc. (C),US Stock,,,,,,,,Citigroup Inc. (C),C,US Stock
+,,,,,,,CTXS,Citrix Systems (CTXS),US Stock,,,,,,,,Citrix Systems (CTXS),CTXS,US Stock
+,,,,,,,CLX,The Clorox Company (CLX),US Stock,,,,,,,,The Clorox Company (CLX),CLX,US Stock
+,,,,,,,CME,CME Group Inc. (CME),US Stock,,,,,,,,CME Group Inc. (CME),CME,US Stock
+,,,,,,,CMS,CMS Energy (CMS),US Stock,,,,,,,,CMS Energy (CMS),CMS,US Stock
+,,,,,,,COH,Coach Inc. (COH),US Stock,,,,,,,,Coach Inc. (COH),COH,US Stock
+,,,,,,,KO,The Coca Cola Company (KO),US Stock,,,,,,,,The Coca Cola Company (KO),KO,US Stock
+,,,,,,,CTSH,Cognizant Technology Solutions (CTSH),US Stock,,,,,,,,Cognizant Technology Solutions (CTSH),CTSH,US Stock
+,,,,,,,CL,Colgate-Palmolive (CL),US Stock,,,,,,,,Colgate-Palmolive (CL),CL,US Stock
+,,,,,,,CMCSA,Comcast A Corp (CMCSA),US Stock,,,,,,,,Comcast A Corp (CMCSA),CMCSA,US Stock
+,,,,,,,CMA,Comerica Inc. (CMA),US Stock,,,,,,,,Comerica Inc. (CMA),CMA,US Stock
+,,,,,,,CAG,ConAgra Foods Inc. (CAG),US Stock,,,,,,,,ConAgra Foods Inc. (CAG),CAG,US Stock
+,,,,,,,CXO,Concho Resources (CXO),US Stock,,,,,,,,Concho Resources (CXO),CXO,US Stock
+,,,,,,,COP,ConocoPhillips (COP),US Stock,,,,,,,,ConocoPhillips (COP),COP,US Stock
+,,,,,,,ED,Consolidated Edison (ED),US Stock,,,,,,,,Consolidated Edison (ED),ED,US Stock
+,,,,,,,STZ,Constellation Brands (STZ),US Stock,,,,,,,,Constellation Brands (STZ),STZ,US Stock
+,,,,,,,GLW,Corning Inc. (GLW),US Stock,,,,,,,,Corning Inc. (GLW),GLW,US Stock
+,,,,,,,COST,Costco Co. (COST),US Stock,,,,,,,,Costco Co. (COST),COST,US Stock
+,,,,,,,COTY,"Coty, Inc (COTY)",US Stock,,,,,,,,"Coty, Inc (COTY)",COTY,US Stock
+,,,,,,,CCI,Crown Castle International Corp. (CCI),US Stock,,,,,,,,Crown Castle International Corp. (CCI),CCI,US Stock
+,,,,,,,CSRA,CSRA Inc. (CSRA),US Stock,,,,,,,,CSRA Inc. (CSRA),CSRA,US Stock
+,,,,,,,CSX,CSX Corp. (CSX),US Stock,,,,,,,,CSX Corp. (CSX),CSX,US Stock
+,,,,,,,CMI,Cummins Inc. (CMI),US Stock,,,,,,,,Cummins Inc. (CMI),CMI,US Stock
+,,,,,,,CVS,CVS Health (CVS),US Stock,,,,,,,,CVS Health (CVS),CVS,US Stock
+,,,,,,,DHI,D. R. Horton (DHI),US Stock,,,,,,,,D. R. Horton (DHI),DHI,US Stock
+,,,,,,,DHR,Danaher Corp. (DHR),US Stock,,,,,,,,Danaher Corp. (DHR),DHR,US Stock
+,,,,,,,DRI,Darden Restaurants (DRI),US Stock,,,,,,,,Darden Restaurants (DRI),DRI,US Stock
+,,,,,,,DVA,DaVita Inc. (DVA),US Stock,,,,,,,,DaVita Inc. (DVA),DVA,US Stock
+,,,,,,,DE,Deere & Co. (DE),US Stock,,,,,,,,Deere & Co. (DE),DE,US Stock
+,,,,,,,DLPH,Delphi Automotive (DLPH),US Stock,,,,,,,,Delphi Automotive (DLPH),DLPH,US Stock
+,,,,,,,DAL,Delta Air Lines (DAL),US Stock,,,,,,,,Delta Air Lines (DAL),DAL,US Stock
+,,,,,,,XRAY,Dentsply Sirona (XRAY),US Stock,,,,,,,,Dentsply Sirona (XRAY),XRAY,US Stock
+,,,,,,,DVN,Devon Energy Corp. (DVN),US Stock,,,,,,,,Devon Energy Corp. (DVN),DVN,US Stock
+,,,,,,,DLR,Digital Realty Trust (DLR),US Stock,,,,,,,,Digital Realty Trust (DLR),DLR,US Stock
+,,,,,,,DFS,Discover Financial Services (DFS),US Stock,,,,,,,,Discover Financial Services (DFS),DFS,US Stock
+,,,,,,,DISCA,Discovery Communications-A (DISCA),US Stock,,,,,,,,Discovery Communications-A (DISCA),DISCA,US Stock
+,,,,,,,DISCK,Discovery Communications-C (DISCK),US Stock,,,,,,,,Discovery Communications-C (DISCK),DISCK,US Stock
+,,,,,,,DG,Dollar General (DG),US Stock,,,,,,,,Dollar General (DG),DG,US Stock
+,,,,,,,DLTR,Dollar Tree (DLTR),US Stock,,,,,,,,Dollar Tree (DLTR),DLTR,US Stock
+,,,,,,,D,Dominion Resources (D),US Stock,,,,,,,,Dominion Resources (D),D,US Stock
+,,,,,,,DOV,Dover Corp. (DOV),US Stock,,,,,,,,Dover Corp. (DOV),DOV,US Stock
+,,,,,,,DOW,Dow Chemical (DOW),US Stock,,,,,,,,Dow Chemical (DOW),DOW,US Stock
+,,,,,,,DPS,Dr Pepper Snapple Group (DPS),US Stock,,,,,,,,Dr Pepper Snapple Group (DPS),DPS,US Stock
+,,,,,,,DTE,DTE Energy Co. (DTE),US Stock,,,,,,,,DTE Energy Co. (DTE),DTE,US Stock
+,,,,,,,DD,Du Pont (E.I.) (DD),US Stock,,,,,,,,Du Pont (E.I.) (DD),DD,US Stock
+,,,,,,,DUK,Duke Energy (DUK),US Stock,,,,,,,,Duke Energy (DUK),DUK,US Stock
+,,,,,,,DNB,Dun & Bradstreet (DNB),US Stock,,,,,,,,Dun & Bradstreet (DNB),DNB,US Stock
+,,,,,,,ETFC,E*Trade (ETFC),US Stock,,,,,,,,E*Trade (ETFC),ETFC,US Stock
+,,,,,,,EMN,Eastman Chemical (EMN),US Stock,,,,,,,,Eastman Chemical (EMN),EMN,US Stock
+,,,,,,,ETN,Eaton Corporation (ETN),US Stock,,,,,,,,Eaton Corporation (ETN),ETN,US Stock
+,,,,,,,EBAY,eBay Inc. (EBAY),US Stock,,,,,,,,eBay Inc. (EBAY),EBAY,US Stock
+,,,,,,,ECL,Ecolab Inc. (ECL),US Stock,,,,,,,,Ecolab Inc. (ECL),ECL,US Stock
+,,,,,,,EIX,Edison Int'l (EIX),US Stock,,,,,,,,Edison Int'l (EIX),EIX,US Stock
+,,,,,,,EW,Edwards Lifesciences (EW),US Stock,,,,,,,,Edwards Lifesciences (EW),EW,US Stock
+,,,,,,,EA,Electronic Arts (EA),US Stock,,,,,,,,Electronic Arts (EA),EA,US Stock
+,,,,,,,EMR,Emerson Electric Company (EMR),US Stock,,,,,,,,Emerson Electric Company (EMR),EMR,US Stock
+,,,,,,,ENDP,Endo International (ENDP),US Stock,,,,,,,,Endo International (ENDP),ENDP,US Stock
+,,,,,,,ETR,Entergy Corp. (ETR),US Stock,,,,,,,,Entergy Corp. (ETR),ETR,US Stock
+,,,,,,,EOG,EOG Resources (EOG),US Stock,,,,,,,,EOG Resources (EOG),EOG,US Stock
+,,,,,,,EQT,EQT Corporation (EQT),US Stock,,,,,,,,EQT Corporation (EQT),EQT,US Stock
+,,,,,,,EFX,Equifax Inc. (EFX),US Stock,,,,,,,,Equifax Inc. (EFX),EFX,US Stock
+,,,,,,,EQIX,Equinix (EQIX),US Stock,,,,,,,,Equinix (EQIX),EQIX,US Stock
+,,,,,,,EQR,Equity Residential (EQR),US Stock,,,,,,,,Equity Residential (EQR),EQR,US Stock
+,,,,,,,ESS,Essex Property Trust Inc (ESS),US Stock,,,,,,,,Essex Property Trust Inc (ESS),ESS,US Stock
+,,,,,,,EL,Estee Lauder Cos. (EL),US Stock,,,,,,,,Estee Lauder Cos. (EL),EL,US Stock
+,,,,,,,ES,Eversource Energy (ES),US Stock,,,,,,,,Eversource Energy (ES),ES,US Stock
+,,,,,,,EXC,Exelon Corp. (EXC),US Stock,,,,,,,,Exelon Corp. (EXC),EXC,US Stock
+,,,,,,,EXPE,Expedia Inc. (EXPE),US Stock,,,,,,,,Expedia Inc. (EXPE),EXPE,US Stock
+,,,,,,,EXPD,Expeditors Int'l (EXPD),US Stock,,,,,,,,Expeditors Int'l (EXPD),EXPD,US Stock
+,,,,,,,ESRX,Express Scripts (ESRX),US Stock,,,,,,,,Express Scripts (ESRX),ESRX,US Stock
+,,,,,,,EXR,Extra Space Storage (EXR),US Stock,,,,,,,,Extra Space Storage (EXR),EXR,US Stock
+,,,,,,,XOM,Exxon Mobil Corp. (XOM),US Stock,,,,,,,,Exxon Mobil Corp. (XOM),XOM,US Stock
+,,,,,,,FFIV,F5 Networks (FFIV),US Stock,,,,,,,,F5 Networks (FFIV),FFIV,US Stock
+,,,,,,,FB,Facebook (FB),US Stock,,,,,,,,Facebook (FB),FB,US Stock
+,,,,,,,FAST,Fastenal Co (FAST),US Stock,,,,,,,,Fastenal Co (FAST),FAST,US Stock
+,,,,,,,FRT,Federal Realty Investment Trust (FRT),US Stock,,,,,,,,Federal Realty Investment Trust (FRT),FRT,US Stock
+,,,,,,,FDX,FedEx Corporation (FDX),US Stock,,,,,,,,FedEx Corporation (FDX),FDX,US Stock
+,,,,,,,FIS,Fidelity National Information Services (FIS),US Stock,,,,,,,,Fidelity National Information Services (FIS),FIS,US Stock
+,,,,,,,FITB,Fifth Third Bancorp (FITB),US Stock,,,,,,,,Fifth Third Bancorp (FITB),FITB,US Stock
+,,,,,,,FSLR,First Solar Inc (FSLR),US Stock,,,,,,,,First Solar Inc (FSLR),FSLR,US Stock
+,,,,,,,FE,FirstEnergy Corp (FE),US Stock,,,,,,,,FirstEnergy Corp (FE),FE,US Stock
+,,,,,,,FISV,Fiserv Inc (FISV),US Stock,,,,,,,,Fiserv Inc (FISV),FISV,US Stock
+,,,,,,,FLIR,FLIR Systems (FLIR),US Stock,,,,,,,,FLIR Systems (FLIR),FLIR,US Stock
+,,,,,,,FLS,Flowserve Corporation (FLS),US Stock,,,,,,,,Flowserve Corporation (FLS),FLS,US Stock
+,,,,,,,FLR,Fluor Corp. (FLR),US Stock,,,,,,,,Fluor Corp. (FLR),FLR,US Stock
+,,,,,,,FMC,FMC Corporation (FMC),US Stock,,,,,,,,FMC Corporation (FMC),FMC,US Stock
+,,,,,,,FTI,FMC Technologies Inc. (FTI),US Stock,,,,,,,,FMC Technologies Inc. (FTI),FTI,US Stock
+,,,,,,,FL,Foot Locker Inc (FL),US Stock,,,,,,,,Foot Locker Inc (FL),FL,US Stock
+,,,,,,,F,Ford Motor (F),US Stock,,,,,,,,Ford Motor (F),F,US Stock
+,,,,,,,FTV,Fortive Corp (FTV),US Stock,,,,,,,,Fortive Corp (FTV),FTV,US Stock
+,,,,,,,FBHS,Fortune Brands Home & Security (FBHS),US Stock,,,,,,,,Fortune Brands Home & Security (FBHS),FBHS,US Stock
+,,,,,,,BEN,Franklin Resources (BEN),US Stock,,,,,,,,Franklin Resources (BEN),BEN,US Stock
+,,,,,,,FCX,Freeport-McMoran Cp & Gld (FCX),US Stock,,,,,,,,Freeport-McMoran Cp & Gld (FCX),FCX,US Stock
+,,,,,,,FTR,Frontier Communications (FTR),US Stock,,,,,,,,Frontier Communications (FTR),FTR,US Stock
+,,,,,,,GPS,Gap (The) (GPS),US Stock,,,,,,,,Gap (The) (GPS),GPS,US Stock
+,,,,,,,GRMN,Garmin Ltd. (GRMN),US Stock,,,,,,,,Garmin Ltd. (GRMN),GRMN,US Stock
+,,,,,,,GD,General Dynamics (GD),US Stock,,,,,,,,General Dynamics (GD),GD,US Stock
+,,,,,,,GE,General Electric (GE),US Stock,,,,,,,,General Electric (GE),GE,US Stock
+,,,,,,,GGP,General Growth Properties Inc. (GGP),US Stock,,,,,,,,General Growth Properties Inc. (GGP),GGP,US Stock
+,,,,,,,GIS,General Mills (GIS),US Stock,,,,,,,,General Mills (GIS),GIS,US Stock
+,,,,,,,GM,General Motors (GM),US Stock,,,,,,,,General Motors (GM),GM,US Stock
+,,,,,,,GPC,Genuine Parts (GPC),US Stock,,,,,,,,Genuine Parts (GPC),GPC,US Stock
+,,,,,,,GILD,Gilead Sciences (GILD),US Stock,,,,,,,,Gilead Sciences (GILD),GILD,US Stock
+,,,,,,,GPN,Global Payments Inc (GPN),US Stock,,,,,,,,Global Payments Inc (GPN),GPN,US Stock
+,,,,,,,GS,Goldman Sachs Group (GS),US Stock,,,,,,,,Goldman Sachs Group (GS),GS,US Stock
+,,,,,,,GT,Goodyear Tire & Rubber (GT),US Stock,,,,,,,,Goodyear Tire & Rubber (GT),GT,US Stock
+,,,,,,,GWW,Grainger (W.W.) Inc. (GWW),US Stock,,,,,,,,Grainger (W.W.) Inc. (GWW),GWW,US Stock
+,,,,,,,HAL,Halliburton Co. (HAL),US Stock,,,,,,,,Halliburton Co. (HAL),HAL,US Stock
+,,,,,,,HBI,Hanesbrands Inc (HBI),US Stock,,,,,,,,Hanesbrands Inc (HBI),HBI,US Stock
+,,,,,,,HOG,Harley-Davidson (HOG),US Stock,,,,,,,,Harley-Davidson (HOG),HOG,US Stock
+,,,,,,,HAR,Harman Int'l Industries (HAR),US Stock,,,,,,,,Harman Int'l Industries (HAR),HAR,US Stock
+,,,,,,,HRS,Harris Corporation (HRS),US Stock,,,,,,,,Harris Corporation (HRS),HRS,US Stock
+,,,,,,,HIG,Hartford Financial Svc.Gp. (HIG),US Stock,,,,,,,,Hartford Financial Svc.Gp. (HIG),HIG,US Stock
+,,,,,,,HAS,Hasbro Inc. (HAS),US Stock,,,,,,,,Hasbro Inc. (HAS),HAS,US Stock
+,,,,,,,HCA,HCA Holdings (HCA),US Stock,,,,,,,,HCA Holdings (HCA),HCA,US Stock
+,,,,,,,HCP,HCP Inc. (HCP),US Stock,,,,,,,,HCP Inc. (HCP),HCP,US Stock
+,,,,,,,HP,Helmerich & Payne (HP),US Stock,,,,,,,,Helmerich & Payne (HP),HP,US Stock
+,,,,,,,HES,Hess Corporation (HES),US Stock,,,,,,,,Hess Corporation (HES),HES,US Stock
+,,,,,,,HPE,Hewlett Packard Enterprise (HPE),US Stock,,,,,,,,Hewlett Packard Enterprise (HPE),HPE,US Stock
+,,,,,,,HOLX,Hologic (HOLX),US Stock,,,,,,,,Hologic (HOLX),HOLX,US Stock
+,,,,,,,HD,Home Depot (HD),US Stock,,,,,,,,Home Depot (HD),HD,US Stock
+,,,,,,,HON,Honeywell Int'l Inc. (HON),US Stock,,,,,,,,Honeywell Int'l Inc. (HON),HON,US Stock
+,,,,,,,HRL,Hormel Foods Corp. (HRL),US Stock,,,,,,,,Hormel Foods Corp. (HRL),HRL,US Stock
+,,,,,,,HST,Host Hotels & Resorts (HST),US Stock,,,,,,,,Host Hotels & Resorts (HST),HST,US Stock
+,,,,,,,HPQ,HP Inc. (HPQ),US Stock,,,,,,,,HP Inc. (HPQ),HPQ,US Stock
+,,,,,,,HUM,Humana Inc. (HUM),US Stock,,,,,,,,Humana Inc. (HUM),HUM,US Stock
+,,,,,,,HBAN,Huntington Bancshares (HBAN),US Stock,,,,,,,,Huntington Bancshares (HBAN),HBAN,US Stock
+,,,,,,,ITW,Illinois Tool Works (ITW),US Stock,,,,,,,,Illinois Tool Works (ITW),ITW,US Stock
+,,,,,,,ILMN,Illumina Inc (ILMN),US Stock,,,,,,,,Illumina Inc (ILMN),ILMN,US Stock
+,,,,,,,IR,Ingersoll-Rand PLC (IR),US Stock,,,,,,,,Ingersoll-Rand PLC (IR),IR,US Stock
+,,,,,,,INTC,Intel Corp. (INTC),US Stock,,,,,,,,Intel Corp. (INTC),INTC,US Stock
+,,,,,,,ICE,Intercontinental Exchange (ICE),US Stock,,,,,,,,Intercontinental Exchange (ICE),ICE,US Stock
+,,,,,,,IBM,International Bus. Machines (IBM),US Stock,,,,,,,,International Bus. Machines (IBM),IBM,US Stock
+,,,,,,,IP,International Paper (IP),US Stock,,,,,,,,International Paper (IP),IP,US Stock
+,,,,,,,IPG,Interpublic Group (IPG),US Stock,,,,,,,,Interpublic Group (IPG),IPG,US Stock
+,,,,,,,IFF,Intl Flavors & Fragrances (IFF),US Stock,,,,,,,,Intl Flavors & Fragrances (IFF),IFF,US Stock
+,,,,,,,INTU,Intuit Inc. (INTU),US Stock,,,,,,,,Intuit Inc. (INTU),INTU,US Stock
+,,,,,,,ISRG,Intuitive Surgical Inc. (ISRG),US Stock,,,,,,,,Intuitive Surgical Inc. (ISRG),ISRG,US Stock
+,,,,,,,IVZ,Invesco Ltd. (IVZ),US Stock,,,,,,,,Invesco Ltd. (IVZ),IVZ,US Stock
+,,,,,,,IRM,Iron Mountain Incorporated (IRM),US Stock,,,,,,,,Iron Mountain Incorporated (IRM),IRM,US Stock
+,,,,,,,JEC,Jacobs Engineering Group (JEC),US Stock,,,,,,,,Jacobs Engineering Group (JEC),JEC,US Stock
+,,,,,,,JBHT,J. B. Hunt Transport Services (JBHT),US Stock,,,,,,,,J. B. Hunt Transport Services (JBHT),JBHT,US Stock
+,,,,,,,JNJ,Johnson & Johnson (JNJ),US Stock,,,,,,,,Johnson & Johnson (JNJ),JNJ,US Stock
+,,,,,,,JCI,Johnson Controls (JCI),US Stock,,,,,,,,Johnson Controls (JCI),JCI,US Stock
+,,,,,,,JPM,JPMorgan Chase & Co. (JPM),US Stock,,,,,,,,JPMorgan Chase & Co. (JPM),JPM,US Stock
+,,,,,,,JNPR,Juniper Networks (JNPR),US Stock,,,,,,,,Juniper Networks (JNPR),JNPR,US Stock
+,,,,,,,KSU,Kansas City Southern (KSU),US Stock,,,,,,,,Kansas City Southern (KSU),KSU,US Stock
+,,,,,,,K,Kellogg Co. (K),US Stock,,,,,,,,Kellogg Co. (K),K,US Stock
+,,,,,,,KEY,KeyCorp (KEY),US Stock,,,,,,,,KeyCorp (KEY),KEY,US Stock
+,,,,,,,KMB,Kimberly-Clark (KMB),US Stock,,,,,,,,Kimberly-Clark (KMB),KMB,US Stock
+,,,,,,,KIM,Kimco Realty (KIM),US Stock,,,,,,,,Kimco Realty (KIM),KIM,US Stock
+,,,,,,,KMI,Kinder Morgan (KMI),US Stock,,,,,,,,Kinder Morgan (KMI),KMI,US Stock
+,,,,,,,KLAC,KLA-Tencor Corp. (KLAC),US Stock,,,,,,,,KLA-Tencor Corp. (KLAC),KLAC,US Stock
+,,,,,,,KSS,Kohl's Corp. (KSS),US Stock,,,,,,,,Kohl's Corp. (KSS),KSS,US Stock
+,,,,,,,KHC,Kraft Heinz Co (KHC),US Stock,,,,,,,,Kraft Heinz Co (KHC),KHC,US Stock
+,,,,,,,KR,Kroger Co. (KR),US Stock,,,,,,,,Kroger Co. (KR),KR,US Stock
+,,,,,,,LB,L Brands Inc. (LB),US Stock,,,,,,,,L Brands Inc. (LB),LB,US Stock
+,,,,,,,LLL,L-3 Communications Holdings (LLL),US Stock,,,,,,,,L-3 Communications Holdings (LLL),LLL,US Stock
+,,,,,,,LH,Laboratory Corp. of America Holding (LH),US Stock,,,,,,,,Laboratory Corp. of America Holding (LH),LH,US Stock
+,,,,,,,LRCX,Lam Research (LRCX),US Stock,,,,,,,,Lam Research (LRCX),LRCX,US Stock
+,,,,,,,LM,Legg Mason (LM),US Stock,,,,,,,,Legg Mason (LM),LM,US Stock
+,,,,,,,LEG,Leggett & Platt (LEG),US Stock,,,,,,,,Leggett & Platt (LEG),LEG,US Stock
+,,,,,,,LEN,Lennar Corp. (LEN),US Stock,,,,,,,,Lennar Corp. (LEN),LEN,US Stock
+,,,,,,,LVLT,Level 3 Communications (LVLT),US Stock,,,,,,,,Level 3 Communications (LVLT),LVLT,US Stock
+,,,,,,,LUK,Leucadia National Corp. (LUK),US Stock,,,,,,,,Leucadia National Corp. (LUK),LUK,US Stock
+,,,,,,,LLY,Lilly (Eli) & Co. (LLY),US Stock,,,,,,,,Lilly (Eli) & Co. (LLY),LLY,US Stock
+,,,,,,,LNC,Lincoln National (LNC),US Stock,,,,,,,,Lincoln National (LNC),LNC,US Stock
+,,,,,,,LLTC,Linear Technology Corp. (LLTC),US Stock,,,,,,,,Linear Technology Corp. (LLTC),LLTC,US Stock
+,,,,,,,LKQ,LKQ Corporation (LKQ),US Stock,,,,,,,,LKQ Corporation (LKQ),LKQ,US Stock
+,,,,,,,LMT,Lockheed Martin Corp. (LMT),US Stock,,,,,,,,Lockheed Martin Corp. (LMT),LMT,US Stock
+,,,,,,,L,Loews Corp. (L),US Stock,,,,,,,,Loews Corp. (L),L,US Stock
+,,,,,,,LOW,Lowe's Cos. (LOW),US Stock,,,,,,,,Lowe's Cos. (LOW),LOW,US Stock
+,,,,,,,LYB,LyondellBasell (LYB),US Stock,,,,,,,,LyondellBasell (LYB),LYB,US Stock
+,,,,,,,MTB,M&T Bank Corp. (MTB),US Stock,,,,,,,,M&T Bank Corp. (MTB),MTB,US Stock
+,,,,,,,MAC,Macerich (MAC),US Stock,,,,,,,,Macerich (MAC),MAC,US Stock
+,,,,,,,M,Macy's Inc. (M),US Stock,,,,,,,,Macy's Inc. (M),M,US Stock
+,,,,,,,MNK,Mallinckrodt Plc (MNK),US Stock,,,,,,,,Mallinckrodt Plc (MNK),MNK,US Stock
+,,,,,,,MRO,Marathon Oil Corp. (MRO),US Stock,,,,,,,,Marathon Oil Corp. (MRO),MRO,US Stock
+,,,,,,,MPC,Marathon Petroleum (MPC),US Stock,,,,,,,,Marathon Petroleum (MPC),MPC,US Stock
+,,,,,,,MAR,Marriott Int'l. (MAR),US Stock,,,,,,,,Marriott Int'l. (MAR),MAR,US Stock
+,,,,,,,MMC,Marsh & McLennan (MMC),US Stock,,,,,,,,Marsh & McLennan (MMC),MMC,US Stock
+,,,,,,,MLM,Martin Marietta Materials (MLM),US Stock,,,,,,,,Martin Marietta Materials (MLM),MLM,US Stock
+,,,,,,,MAS,Masco Corp. (MAS),US Stock,,,,,,,,Masco Corp. (MAS),MAS,US Stock
+,,,,,,,MA,Mastercard Inc. (MA),US Stock,,,,,,,,Mastercard Inc. (MA),MA,US Stock
+,,,,,,,MAT,Mattel Inc. (MAT),US Stock,,,,,,,,Mattel Inc. (MAT),MAT,US Stock
+,,,,,,,MKC,McCormick & Co. (MKC),US Stock,,,,,,,,McCormick & Co. (MKC),MKC,US Stock
+,,,,,,,MCD,McDonald's Corp. (MCD),US Stock,,,,,,,,McDonald's Corp. (MCD),MCD,US Stock
+,,,,,,,MCK,McKesson Corp. (MCK),US Stock,,,,,,,,McKesson Corp. (MCK),MCK,US Stock
+,,,,,,,MJN,Mead Johnson (MJN),US Stock,,,,,,,,Mead Johnson (MJN),MJN,US Stock
+,,,,,,,MDT,Medtronic plc (MDT),US Stock,,,,,,,,Medtronic plc (MDT),MDT,US Stock
+,,,,,,,MRK,Merck & Co. (MRK),US Stock,,,,,,,,Merck & Co. (MRK),MRK,US Stock
+,,,,,,,MET,MetLife Inc. (MET),US Stock,,,,,,,,MetLife Inc. (MET),MET,US Stock
+,,,,,,,MTD,Mettler Toledo (MTD),US Stock,,,,,,,,Mettler Toledo (MTD),MTD,US Stock
+,,,,,,,KORS,Michael Kors Holdings (KORS),US Stock,,,,,,,,Michael Kors Holdings (KORS),KORS,US Stock
+,,,,,,,MCHP,Microchip Technology (MCHP),US Stock,,,,,,,,Microchip Technology (MCHP),MCHP,US Stock
+,,,,,,,MU,Micron Technology (MU),US Stock,,,,,,,,Micron Technology (MU),MU,US Stock
+,,,,,,,MSFT,Microsoft Corp. (MSFT),US Stock,,,,,,,,Microsoft Corp. (MSFT),MSFT,US Stock
+,,,,,,,MHK,Mohawk Industries (MHK),US Stock,,,,,,,,Mohawk Industries (MHK),MHK,US Stock
+,,,,,,,TAP,Molson Coors Brewing Company (TAP),US Stock,,,,,,,,Molson Coors Brewing Company (TAP),TAP,US Stock
+,,,,,,,MDLZ,Mondelez International (MDLZ),US Stock,,,,,,,,Mondelez International (MDLZ),MDLZ,US Stock
+,,,,,,,MON,Monsanto Co. (MON),US Stock,,,,,,,,Monsanto Co. (MON),MON,US Stock
+,,,,,,,MNST,Monster Beverage (MNST),US Stock,,,,,,,,Monster Beverage (MNST),MNST,US Stock
+,,,,,,,MCO,Moody's Corp (MCO),US Stock,,,,,,,,Moody's Corp (MCO),MCO,US Stock
+,,,,,,,MS,Morgan Stanley (MS),US Stock,,,,,,,,Morgan Stanley (MS),MS,US Stock
+,,,,,,,MOS,The Mosaic Company (MOS),US Stock,,,,,,,,The Mosaic Company (MOS),MOS,US Stock
+,,,,,,,MSI,Motorola Solutions Inc. (MSI),US Stock,,,,,,,,Motorola Solutions Inc. (MSI),MSI,US Stock
+,,,,,,,MUR,Murphy Oil (MUR),US Stock,,,,,,,,Murphy Oil (MUR),MUR,US Stock
+,,,,,,,MYL,Mylan N.V. (MYL),US Stock,,,,,,,,Mylan N.V. (MYL),MYL,US Stock
+,,,,,,,NDAQ,NASDAQ OMX Group (NDAQ),US Stock,,,,,,,,NASDAQ OMX Group (NDAQ),NDAQ,US Stock
+,,,,,,,NOV,National Oilwell Varco Inc. (NOV),US Stock,,,,,,,,National Oilwell Varco Inc. (NOV),NOV,US Stock
+,,,,,,,NAVI,Navient (NAVI),US Stock,,,,,,,,Navient (NAVI),NAVI,US Stock
+,,,,,,,NTAP,NetApp (NTAP),US Stock,,,,,,,,NetApp (NTAP),NTAP,US Stock
+,,,,,,,NFLX,Netflix Inc. (NFLX),US Stock,,,,,,,,Netflix Inc. (NFLX),NFLX,US Stock
+,,,,,,,NWL,Newell Rubbermaid Co. (NWL),US Stock,,,,,,,,Newell Rubbermaid Co. (NWL),NWL,US Stock
+,,,,,,,NFX,Newfield Exploration Co (NFX),US Stock,,,,,,,,Newfield Exploration Co (NFX),NFX,US Stock
+,,,,,,,NEM,Newmont Mining Corp. (Hldg. Co.) (NEM),US Stock,,,,,,,,Newmont Mining Corp. (Hldg. Co.) (NEM),NEM,US Stock
+,,,,,,,NWSA,News Corp. Class A (NWSA),US Stock,,,,,,,,News Corp. Class A (NWSA),NWSA,US Stock
+,,,,,,,NWS,News Corp. Class B (NWS),US Stock,,,,,,,,News Corp. Class B (NWS),NWS,US Stock
+,,,,,,,NEE,NextEra Energy (NEE),US Stock,,,,,,,,NextEra Energy (NEE),NEE,US Stock
+,,,,,,,NLSN,Nielsen Holdings (NLSN),US Stock,,,,,,,,Nielsen Holdings (NLSN),NLSN,US Stock
+,,,,,,,NKE,Nike (NKE),US Stock,,,,,,,,Nike (NKE),NKE,US Stock
+,,,,,,,NI,NiSource Inc. (NI),US Stock,,,,,,,,NiSource Inc. (NI),NI,US Stock
+,,,,,,,NBL,Noble Energy Inc (NBL),US Stock,,,,,,,,Noble Energy Inc (NBL),NBL,US Stock
+,,,,,,,JWN,Nordstrom (JWN),US Stock,,,,,,,,Nordstrom (JWN),JWN,US Stock
+,,,,,,,NSC,Norfolk Southern Corp. (NSC),US Stock,,,,,,,,Norfolk Southern Corp. (NSC),NSC,US Stock
+,,,,,,,NTRS,Northern Trust Corp. (NTRS),US Stock,,,,,,,,Northern Trust Corp. (NTRS),NTRS,US Stock
+,,,,,,,NOC,Northrop Grumman Corp. (NOC),US Stock,,,,,,,,Northrop Grumman Corp. (NOC),NOC,US Stock
+,,,,,,,NRG,NRG Energy (NRG),US Stock,,,,,,,,NRG Energy (NRG),NRG,US Stock
+,,,,,,,NUE,Nucor Corp. (NUE),US Stock,,,,,,,,Nucor Corp. (NUE),NUE,US Stock
+,,,,,,,NVDA,Nvidia Corporation (NVDA),US Stock,,,,,,,,Nvidia Corporation (NVDA),NVDA,US Stock
+,,,,,,,ORLY,O'Reilly Automotive (ORLY),US Stock,,,,,,,,O'Reilly Automotive (ORLY),ORLY,US Stock
+,,,,,,,OXY,Occidental Petroleum (OXY),US Stock,,,,,,,,Occidental Petroleum (OXY),OXY,US Stock
+,,,,,,,OMC,Omnicom Group (OMC),US Stock,,,,,,,,Omnicom Group (OMC),OMC,US Stock
+,,,,,,,OKE,ONEOK (OKE),US Stock,,,,,,,,ONEOK (OKE),OKE,US Stock
+,,,,,,,ORCL,Oracle Corp. (ORCL),US Stock,,,,,,,,Oracle Corp. (ORCL),ORCL,US Stock
+,,,,,,,OI,Owens-Illinois Inc (OI),US Stock,,,,,,,,Owens-Illinois Inc (OI),OI,US Stock
+,,,,,,,PCAR,PACCAR Inc. (PCAR),US Stock,,,,,,,,PACCAR Inc. (PCAR),PCAR,US Stock
+,,,,,,,PH,Parker-Hannifin (PH),US Stock,,,,,,,,Parker-Hannifin (PH),PH,US Stock
+,,,,,,,PDCO,Patterson Companies (PDCO),US Stock,,,,,,,,Patterson Companies (PDCO),PDCO,US Stock
+,,,,,,,PAYX,Paychex Inc. (PAYX),US Stock,,,,,,,,Paychex Inc. (PAYX),PAYX,US Stock
+,,,,,,,PYPL,PayPal (PYPL),US Stock,,,,,,,,PayPal (PYPL),PYPL,US Stock
+,,,,,,,PNR,Pentair Ltd. (PNR),US Stock,,,,,,,,Pentair Ltd. (PNR),PNR,US Stock
+,,,,,,,PBCT,People's United Financial (PBCT),US Stock,,,,,,,,People's United Financial (PBCT),PBCT,US Stock
+,,,,,,,PEP,PepsiCo Inc. (PEP),US Stock,,,,,,,,PepsiCo Inc. (PEP),PEP,US Stock
+,,,,,,,PKI,PerkinElmer (PKI),US Stock,,,,,,,,PerkinElmer (PKI),PKI,US Stock
+,,,,,,,PRGO,Perrigo (PRGO),US Stock,,,,,,,,Perrigo (PRGO),PRGO,US Stock
+,,,,,,,PFE,Pfizer Inc. (PFE),US Stock,,,,,,,,Pfizer Inc. (PFE),PFE,US Stock
+,,,,,,,PCG,PG&E Corp. (PCG),US Stock,,,,,,,,PG&E Corp. (PCG),PCG,US Stock
+,,,,,,,PM,Philip Morris International (PM),US Stock,,,,,,,,Philip Morris International (PM),PM,US Stock
+,,,,,,,PSX,Phillips 66 (PSX),US Stock,,,,,,,,Phillips 66 (PSX),PSX,US Stock
+,,,,,,,PNW,Pinnacle West Capital (PNW),US Stock,,,,,,,,Pinnacle West Capital (PNW),PNW,US Stock
+,,,,,,,PXD,Pioneer Natural Resources (PXD),US Stock,,,,,,,,Pioneer Natural Resources (PXD),PXD,US Stock
+,,,,,,,PBI,Pitney-Bowes (PBI),US Stock,,,,,,,,Pitney-Bowes (PBI),PBI,US Stock
+,,,,,,,PNC,PNC Financial Services (PNC),US Stock,,,,,,,,PNC Financial Services (PNC),PNC,US Stock
+,,,,,,,RL,Polo Ralph Lauren Corp. (RL),US Stock,,,,,,,,Polo Ralph Lauren Corp. (RL),RL,US Stock
+,,,,,,,PPG,PPG Industries (PPG),US Stock,,,,,,,,PPG Industries (PPG),PPG,US Stock
+,,,,,,,PPL,PPL Corp. (PPL),US Stock,,,,,,,,PPL Corp. (PPL),PPL,US Stock
+,,,,,,,PX,Praxair Inc. (PX),US Stock,,,,,,,,Praxair Inc. (PX),PX,US Stock
+,,,,,,,CFG,Citizens Financial Group (CFG),US Stock,,,,,,,,Citizens Financial Group (CFG),CFG,US Stock
+,,,,,,,PCLN,Priceline.com Inc (PCLN),US Stock,,,,,,,,Priceline.com Inc (PCLN),PCLN,US Stock
+,,,,,,,PFG,Principal Financial Group (PFG),US Stock,,,,,,,,Principal Financial Group (PFG),PFG,US Stock
+,,,,,,,PG,Procter & Gamble (PG),US Stock,,,,,,,,Procter & Gamble (PG),PG,US Stock
+,,,,,,,PGR,Progressive Corp. (PGR),US Stock,,,,,,,,Progressive Corp. (PGR),PGR,US Stock
+,,,,,,,PLD,Prologis (PLD),US Stock,,,,,,,,Prologis (PLD),PLD,US Stock
+,,,,,,,PRU,Prudential Financial (PRU),US Stock,,,,,,,,Prudential Financial (PRU),PRU,US Stock
+,,,,,,,PEG,Public Serv. Enterprise Inc. (PEG),US Stock,,,,,,,,Public Serv. Enterprise Inc. (PEG),PEG,US Stock
+,,,,,,,PSA,Public Storage (PSA),US Stock,,,,,,,,Public Storage (PSA),PSA,US Stock
+,,,,,,,PHM,Pulte Homes Inc. (PHM),US Stock,,,,,,,,Pulte Homes Inc. (PHM),PHM,US Stock
+,,,,,,,PVH,PVH Corp. (PVH),US Stock,,,,,,,,PVH Corp. (PVH),PVH,US Stock
+,,,,,,,QRVO,Qorvo (QRVO),US Stock,,,,,,,,Qorvo (QRVO),QRVO,US Stock
+,,,,,,,PWR,Quanta Services Inc. (PWR),US Stock,,,,,,,,Quanta Services Inc. (PWR),PWR,US Stock
+,,,,,,,QCOM,QUALCOMM Inc. (QCOM),US Stock,,,,,,,,QUALCOMM Inc. (QCOM),QCOM,US Stock
+,,,,,,,DGX,Quest Diagnostics (DGX),US Stock,,,,,,,,Quest Diagnostics (DGX),DGX,US Stock
+,,,,,,,RRC,Range Resources Corp. (RRC),US Stock,,,,,,,,Range Resources Corp. (RRC),RRC,US Stock
+,,,,,,,RTN,Raytheon Co. (RTN),US Stock,,,,,,,,Raytheon Co. (RTN),RTN,US Stock
+,,,,,,,O,Realty Income Corporation (O),US Stock,,,,,,,,Realty Income Corporation (O),O,US Stock
+,,,,,,,RHT,Red Hat Inc. (RHT),US Stock,,,,,,,,Red Hat Inc. (RHT),RHT,US Stock
+,,,,,,,REGN,Regeneron (REGN),US Stock,,,,,,,,Regeneron (REGN),REGN,US Stock
+,,,,,,,RF,Regions Financial Corp. (RF),US Stock,,,,,,,,Regions Financial Corp. (RF),RF,US Stock
+,,,,,,,RSG,Republic Services Inc (RSG),US Stock,,,,,,,,Republic Services Inc (RSG),RSG,US Stock
+,,,,,,,RAI,Reynolds American Inc. (RAI),US Stock,,,,,,,,Reynolds American Inc. (RAI),RAI,US Stock
+,,,,,,,RHI,Robert Half International (RHI),US Stock,,,,,,,,Robert Half International (RHI),RHI,US Stock
+,,,,,,,ROK,Rockwell Automation Inc. (ROK),US Stock,,,,,,,,Rockwell Automation Inc. (ROK),ROK,US Stock
+,,,,,,,COL,Rockwell Collins (COL),US Stock,,,,,,,,Rockwell Collins (COL),COL,US Stock
+,,,,,,,ROP,Roper Industries (ROP),US Stock,,,,,,,,Roper Industries (ROP),ROP,US Stock
+,,,,,,,ROST,Ross Stores (ROST),US Stock,,,,,,,,Ross Stores (ROST),ROST,US Stock
+,,,,,,,RCL,Royal Caribbean Cruises Ltd (RCL),US Stock,,,,,,,,Royal Caribbean Cruises Ltd (RCL),RCL,US Stock
+,,,,,,,R,Ryder System (R),US Stock,,,,,,,,Ryder System (R),R,US Stock
+,,,,,,,CRM,Salesforce.com (CRM),US Stock,,,,,,,,Salesforce.com (CRM),CRM,US Stock
+,,,,,,,SCG,SCANA Corp (SCG),US Stock,,,,,,,,SCANA Corp (SCG),SCG,US Stock
+,,,,,,,SLB,Schlumberger Ltd. (SLB),US Stock,,,,,,,,Schlumberger Ltd. (SLB),SLB,US Stock
+,,,,,,,SNI,Scripps Networks Interactive Inc. (SNI),US Stock,,,,,,,,Scripps Networks Interactive Inc. (SNI),SNI,US Stock
+,,,,,,,STX,Seagate Technology (STX),US Stock,,,,,,,,Seagate Technology (STX),STX,US Stock
+,,,,,,,SEE,Sealed Air (SEE),US Stock,,,,,,,,Sealed Air (SEE),SEE,US Stock
+,,,,,,,SRE,Sempra Energy (SRE),US Stock,,,,,,,,Sempra Energy (SRE),SRE,US Stock
+,,,,,,,SHW,Sherwin-Williams (SHW),US Stock,,,,,,,,Sherwin-Williams (SHW),SHW,US Stock
+,,,,,,,SIG,Signet Jewelers (SIG),US Stock,,,,,,,,Signet Jewelers (SIG),SIG,US Stock
+,,,,,,,SPG,Simon Property Group Inc (SPG),US Stock,,,,,,,,Simon Property Group Inc (SPG),SPG,US Stock
+,,,,,,,SWKS,Skyworks Solutions (SWKS),US Stock,,,,,,,,Skyworks Solutions (SWKS),SWKS,US Stock
+,,,,,,,SLG,SL Green Realty (SLG),US Stock,,,,,,,,SL Green Realty (SLG),SLG,US Stock
+,,,,,,,SJM,Smucker (J.M.) (SJM),US Stock,,,,,,,,Smucker (J.M.) (SJM),SJM,US Stock
+,,,,,,,SNA,Snap-On Inc. (SNA),US Stock,,,,,,,,Snap-On Inc. (SNA),SNA,US Stock
+,,,,,,,SO,Southern Co. (SO),US Stock,,,,,,,,Southern Co. (SO),SO,US Stock
+,,,,,,,LUV,Southwest Airlines (LUV),US Stock,,,,,,,,Southwest Airlines (LUV),LUV,US Stock
+,,,,,,,SWN,Southwestern Energy (SWN),US Stock,,,,,,,,Southwestern Energy (SWN),SWN,US Stock
+,,,,,,,SE,Spectra Energy Corp. (SE),US Stock,,,,,,,,Spectra Energy Corp. (SE),SE,US Stock
+,,,,,,,SPGI,"S&P Global, Inc. (SPGI)",US Stock,,,,,,,,"S&P Global, Inc. (SPGI)",SPGI,US Stock
+,,,,,,,STJ,St Jude Medical (STJ),US Stock,,,,,,,,St Jude Medical (STJ),STJ,US Stock
+,,,,,,,SWK,Stanley Black & Decker (SWK),US Stock,,,,,,,,Stanley Black & Decker (SWK),SWK,US Stock
+,,,,,,,SPLS,Staples Inc. (SPLS),US Stock,,,,,,,,Staples Inc. (SPLS),SPLS,US Stock
+,,,,,,,SBUX,Starbucks Corp. (SBUX),US Stock,,,,,,,,Starbucks Corp. (SBUX),SBUX,US Stock
+,,,,,,,STT,State Street Corp. (STT),US Stock,,,,,,,,State Street Corp. (STT),STT,US Stock
+,,,,,,,SRCL,Stericycle Inc (SRCL),US Stock,,,,,,,,Stericycle Inc (SRCL),SRCL,US Stock
+,,,,,,,SYK,Stryker Corp. (SYK),US Stock,,,,,,,,Stryker Corp. (SYK),SYK,US Stock
+,,,,,,,STI,SunTrust Banks (STI),US Stock,,,,,,,,SunTrust Banks (STI),STI,US Stock
+,,,,,,,SYMC,Symantec Corp. (SYMC),US Stock,,,,,,,,Symantec Corp. (SYMC),SYMC,US Stock
+,,,,,,,SYF,Synchrony Financial (SYF),US Stock,,,,,,,,Synchrony Financial (SYF),SYF,US Stock
+,,,,,,,SYY,Sysco Corp. (SYY),US Stock,,,,,,,,Sysco Corp. (SYY),SYY,US Stock
+,,,,,,,TROW,T. Rowe Price Group (TROW),US Stock,,,,,,,,T. Rowe Price Group (TROW),TROW,US Stock
+,,,,,,,TGT,Target Corp. (TGT),US Stock,,,,,,,,Target Corp. (TGT),TGT,US Stock
+,,,,,,,TEL,TE Connectivity Ltd. (TEL),US Stock,,,,,,,,TE Connectivity Ltd. (TEL),TEL,US Stock
+,,,,,,,TGNA,Tegna (TGNA),US Stock,,,,,,,,Tegna (TGNA),TGNA,US Stock
+,,,,,,,TDC,Teradata Corp. (TDC),US Stock,,,,,,,,Teradata Corp. (TDC),TDC,US Stock
+,,,,,,,TSO,Tesoro Petroleum Co. (TSO),US Stock,,,,,,,,Tesoro Petroleum Co. (TSO),TSO,US Stock
+,,,,,,,TXN,Texas Instruments (TXN),US Stock,,,,,,,,Texas Instruments (TXN),TXN,US Stock
+,,,,,,,TXT,Textron Inc. (TXT),US Stock,,,,,,,,Textron Inc. (TXT),TXT,US Stock
+,,,,,,,COO,The Cooper Companies (COO),US Stock,,,,,,,,The Cooper Companies (COO),COO,US Stock
+,,,,,,,HSY,The Hershey Company (HSY),US Stock,,,,,,,,The Hershey Company (HSY),HSY,US Stock
+,,,,,,,TRV,The Travelers Companies Inc. (TRV),US Stock,,,,,,,,The Travelers Companies Inc. (TRV),TRV,US Stock
+,,,,,,,TMO,Thermo Fisher Scientific (TMO),US Stock,,,,,,,,Thermo Fisher Scientific (TMO),TMO,US Stock
+,,,,,,,TIF,Tiffany & Co. (TIF),US Stock,,,,,,,,Tiffany & Co. (TIF),TIF,US Stock
+,,,,,,,TWX,Time Warner Inc. (TWX),US Stock,,,,,,,,Time Warner Inc. (TWX),TWX,US Stock
+,,,,,,,TJX,TJX Companies Inc. (TJX),US Stock,,,,,,,,TJX Companies Inc. (TJX),TJX,US Stock
+,,,,,,,TMK,Torchmark Corp. (TMK),US Stock,,,,,,,,Torchmark Corp. (TMK),TMK,US Stock
+,,,,,,,TSS,Total System Services (TSS),US Stock,,,,,,,,Total System Services (TSS),TSS,US Stock
+,,,,,,,TSCO,Tractor Supply Company (TSCO),US Stock,,,,,,,,Tractor Supply Company (TSCO),TSCO,US Stock
+,,,,,,,TDG,TransDigm Group (TDG),US Stock,,,,,,,,TransDigm Group (TDG),TDG,US Stock
+,,,,,,,RIG,Transocean (RIG),US Stock,,,,,,,,Transocean (RIG),RIG,US Stock
+,,,,,,,TRIP,TripAdvisor (TRIP),US Stock,,,,,,,,TripAdvisor (TRIP),TRIP,US Stock
+,,,,,,,FOXA,Twenty-First Century Fox Class A (FOXA),US Stock,,,,,,,,Twenty-First Century Fox Class A (FOXA),FOXA,US Stock
+,,,,,,,FOX,Twenty-First Century Fox Class B (FOX),US Stock,,,,,,,,Twenty-First Century Fox Class B (FOX),FOX,US Stock
+,,,,,,,TSN,Tyson Foods (TSN),US Stock,,,,,,,,Tyson Foods (TSN),TSN,US Stock
+,,,,,,,UDR,UDR Inc (UDR),US Stock,,,,,,,,UDR Inc (UDR),UDR,US Stock
+,,,,,,,ULTA,Ulta Salon Cosmetics & Fragrance Inc (ULTA),US Stock,,,,,,,,Ulta Salon Cosmetics & Fragrance Inc (ULTA),ULTA,US Stock
+,,,,,,,USB,U.S. Bancorp (USB),US Stock,,,,,,,,U.S. Bancorp (USB),USB,US Stock
+,,,,,,,UA,Under Armour (UA),US Stock,,,,,,,,Under Armour (UA),UA,US Stock
+,,,,,,,UA.C,Under Armour (UA.C),US Stock,,,,,,,,Under Armour (UA.C),UA.C,US Stock
+,,,,,,,UNP,Union Pacific (UNP),US Stock,,,,,,,,Union Pacific (UNP),UNP,US Stock
+,,,,,,,UAL,United Continental Holdings (UAL),US Stock,,,,,,,,United Continental Holdings (UAL),UAL,US Stock
+,,,,,,,UNH,United Health Group Inc. (UNH),US Stock,,,,,,,,United Health Group Inc. (UNH),UNH,US Stock
+,,,,,,,UPS,United Parcel Service (UPS),US Stock,,,,,,,,United Parcel Service (UPS),UPS,US Stock
+,,,,,,,URI,"United Rentals, Inc. (URI)",US Stock,,,,,,,,"United Rentals, Inc. (URI)",URI,US Stock
+,,,,,,,UTX,United Technologies (UTX),US Stock,,,,,,,,United Technologies (UTX),UTX,US Stock
+,,,,,,,UHS,"Universal Health Services, Inc. (UHS)",US Stock,,,,,,,,"Universal Health Services, Inc. (UHS)",UHS,US Stock
+,,,,,,,UNM,Unum Group (UNM),US Stock,,,,,,,,Unum Group (UNM),UNM,US Stock
+,,,,,,,URBN,Urban Outfitters (URBN),US Stock,,,,,,,,Urban Outfitters (URBN),URBN,US Stock
+,,,,,,,VFC,V.F. Corp. (VFC),US Stock,,,,,,,,V.F. Corp. (VFC),VFC,US Stock
+,,,,,,,VLO,Valero Energy (VLO),US Stock,,,,,,,,Valero Energy (VLO),VLO,US Stock
+,,,,,,,VAR,Varian Medical Systems (VAR),US Stock,,,,,,,,Varian Medical Systems (VAR),VAR,US Stock
+,,,,,,,VTR,Ventas Inc (VTR),US Stock,,,,,,,,Ventas Inc (VTR),VTR,US Stock
+,,,,,,,VRSN,Verisign Inc. (VRSN),US Stock,,,,,,,,Verisign Inc. (VRSN),VRSN,US Stock
+,,,,,,,VRSK,Verisk Analytics (VRSK),US Stock,,,,,,,,Verisk Analytics (VRSK),VRSK,US Stock
+,,,,,,,VZ,Verizon Communications (VZ),US Stock,,,,,,,,Verizon Communications (VZ),VZ,US Stock
+,,,,,,,VRTX,Vertex Pharmaceuticals Inc (VRTX),US Stock,,,,,,,,Vertex Pharmaceuticals Inc (VRTX),VRTX,US Stock
+,,,,,,,VIAB,Viacom Inc. (VIAB),US Stock,,,,,,,,Viacom Inc. (VIAB),VIAB,US Stock
+,,,,,,,V,Visa Inc. (V),US Stock,,,,,,,,Visa Inc. (V),V,US Stock
+,,,,,,,VNO,Vornado Realty Trust (VNO),US Stock,,,,,,,,Vornado Realty Trust (VNO),VNO,US Stock
+,,,,,,,VMC,Vulcan Materials (VMC),US Stock,,,,,,,,Vulcan Materials (VMC),VMC,US Stock
+,,,,,,,WMT,Wal-Mart Stores (WMT),US Stock,,,,,,,,Wal-Mart Stores (WMT),WMT,US Stock
+,,,,,,,WBA,Walgreens Boots Alliance (WBA),US Stock,,,,,,,,Walgreens Boots Alliance (WBA),WBA,US Stock
+,,,,,,,DIS,The Walt Disney Company (DIS),US Stock,,,,,,,,The Walt Disney Company (DIS),DIS,US Stock
+,,,,,,,WM,Waste Management Inc. (WM),US Stock,,,,,,,,Waste Management Inc. (WM),WM,US Stock
+,,,,,,,WAT,Waters Corporation (WAT),US Stock,,,,,,,,Waters Corporation (WAT),WAT,US Stock
+,,,,,,,WFC,Wells Fargo (WFC),US Stock,,,,,,,,Wells Fargo (WFC),WFC,US Stock
+,,,,,,,HCN,Welltower Inc. (HCN),US Stock,,,,,,,,Welltower Inc. (HCN),HCN,US Stock
+,,,,,,,WDC,Western Digital (WDC),US Stock,,,,,,,,Western Digital (WDC),WDC,US Stock
+,,,,,,,WU,Western Union Co (WU),US Stock,,,,,,,,Western Union Co (WU),WU,US Stock
+,,,,,,,WRK,Westrock Co (WRK),US Stock,,,,,,,,Westrock Co (WRK),WRK,US Stock
+,,,,,,,WY,Weyerhaeuser Corp. (WY),US Stock,,,,,,,,Weyerhaeuser Corp. (WY),WY,US Stock
+,,,,,,,WHR,Whirlpool Corp. (WHR),US Stock,,,,,,,,Whirlpool Corp. (WHR),WHR,US Stock
+,,,,,,,WFM,Whole Foods Market (WFM),US Stock,,,,,,,,Whole Foods Market (WFM),WFM,US Stock
+,,,,,,,WMB,Williams Cos. (WMB),US Stock,,,,,,,,Williams Cos. (WMB),WMB,US Stock
+,,,,,,,WLTW,Willis Towers Watson (WLTW),US Stock,,,,,,,,Willis Towers Watson (WLTW),WLTW,US Stock
+,,,,,,,WEC,Wisconsin Energy Corporation (WEC),US Stock,,,,,,,,Wisconsin Energy Corporation (WEC),WEC,US Stock
+,,,,,,,WYN,Wyndham Worldwide (WYN),US Stock,,,,,,,,Wyndham Worldwide (WYN),WYN,US Stock
+,,,,,,,WYNN,Wynn Resorts Ltd (WYNN),US Stock,,,,,,,,Wynn Resorts Ltd (WYNN),WYNN,US Stock
+,,,,,,,XEL,Xcel Energy Inc (XEL),US Stock,,,,,,,,Xcel Energy Inc (XEL),XEL,US Stock
+,,,,,,,XRX,Xerox Corp. (XRX),US Stock,,,,,,,,Xerox Corp. (XRX),XRX,US Stock
+,,,,,,,XLNX,Xilinx Inc (XLNX),US Stock,,,,,,,,Xilinx Inc (XLNX),XLNX,US Stock
+,,,,,,,XL,XL Capital (XL),US Stock,,,,,,,,XL Capital (XL),XL,US Stock
+,,,,,,,XYL,Xylem Inc. (XYL),US Stock,,,,,,,,Xylem Inc. (XYL),XYL,US Stock
+,,,,,,,YHOO,Yahoo Inc. (YHOO),US Stock,,,,,,,,Yahoo Inc. (YHOO),YHOO,US Stock
+,,,,,,,YUM,Yum! Brands Inc (YUM),US Stock,,,,,,,,Yum! Brands Inc (YUM),YUM,US Stock
+,,,,,,,ZBH,Zimmer Biomet Holdings (ZBH),US Stock,,,,,,,,Zimmer Biomet Holdings (ZBH),ZBH,US Stock
+,,,,,,,ZION,Zions Bancorp (ZION),US Stock,,,,,,,,Zions Bancorp (ZION),ZION,US Stock
+,,,,,,,ZTS,Zoetis (ZTS),US Stock,,,,,,,,Zoetis (ZTS),ZTS,US Stock
+,,,,,,,,,,,,,,,,,Vanguard Dividend Appreciation ETF (VIG),VIG,US Large-cap Stock ETFs
+,,,,,,,,,,,,,,,,,Vanguard Growth ETF (VUG),VUG,US Large-cap Stock ETFs
+,,,,,,,,,,,,,,,,,Vanguard High Dividend Yield ETF (VYM),VYM,US Large-cap Stock ETFs
+,,,,,,,,,,,,,,,,,Vanguard Large-Cap ETF (VV),VV,US Large-cap Stock ETFs
+,,,,,,,,,,,,,,,,,Vanguard Mega Cap ETF (MGC),MGC,US Large-cap Stock ETFs
+,,,,,,,,,,,,,,,,,Vanguard Mega Cap Growth ETF (MGK),MGK,US Large-cap Stock ETFs
+,,,,,,,,,,,,,,,,,Vanguard Mega Cap Value ETF (MGV),MGV,US Large-cap Stock ETFs
+,,,,,,,,,,,,,,,,,Vanguard S&P 500 ETF (VOO),VOO,US Large-cap Stock ETFs
+,,,,,,,,,,,,,,,,,Vanguard Total Stock Market ETF (VTI),VTI,US Large-cap Stock ETFs
+,,,,,,,,,,,,,,,,,Vanguard Value ETF (VTV),VTV,US Large-cap Stock ETFs
+,,,,,,,,,,,,,,,,,Vanguard Extended Market ETF (VXF),VXF,US Mid-cap Stock ETFs
+,,,,,,,,,,,,,,,,,Vanguard Mid-Cap ETF (VO),VO,US Mid-cap Stock ETFs
+,,,,,,,,,,,,,,,,,Vanguard Mid-Cap Growth ETF (VOT),VOT,US Mid-cap Stock ETFs
+,,,,,,,,,,,,,,,,,Vanguard Mid-Cap Value ETF (VOE),VOE,US Mid-cap Stock ETFs
+,,,,,,,,,,,,,,,,,Vanguard Small-Cap ETF (VB),VB,US Small-cap Stock ETFs
+,,,,,,,,,,,,,,,,,Vanguard Small-Cap Growth ETF (VBK),VBK,US Small-cap Stock ETFs
+,,,,,,,,,,,,,,,,,Vanguard Small-Cap Value ETF (VBR),VBR,US Small-cap Stock ETFs
+,,,,,,,,,,,,,,,,,Anheuser-Busch InBev (ABI.BR),ABI.BR,Euro Stock
+,,,,,,,,,,,,,,,,,Carrefour SA (CA.PA),CA.PA,Euro Stock
+,,,,,,,,,,,,,,,,,Air Liquide SA (AI.PA),AI.PA,Euro Stock
+,,,,,,,,,,,,,,,,,Orange (ORA.PA),ORA.PA,Euro Stock
+,,,,,,,,,,,,,,,,,Enel SpA (ENEL.MI),ENEL.MI,Euro Stock
+,,,,,,,,,,,,,,,,,PHILIPS KON (PHIA.AS),PHIA.AS,Euro Stock
+,,,,,,,,,,,,,,,,,Deutsche Telekom AG (DTE.DE),DTE.DE,Euro Stock
+,,,,,,,,,,,,,,,,,Essilor International SA (EI.PA),EI.PA,Euro Stock
+,,,,,,,,,,,,,,,,,IBERDROLA (IBE.MC),IBE.MC,Euro Stock
+,,,,,,,,,,,,,,,,,L'Oreal SA (OR.PA),OR.PA,Euro Stock
+,,,,,,,,,,,,,,,,,Danone (BN.PA),BN.PA,Euro Stock
+,,,,,,,,,,,,,,,,,Schneider Electric SE (SU.PA),SU.PA,Euro Stock
+,,,,,,,,,,,,,,,,,INDITEX (ITX.MC),ITX.MC,Euro Stock
+,,,,,,,,,,,,,,,,,Safran SA (SAF.PA),SAF.PA,Euro Stock
+,,,,,,,,,,,,,,,,,Sanofi (SAN.PA),SAN.PA,Euro Stock
+,,,,,,,,,,,,,,,,,BBVA (BBVA.MC),BBVA.MC,Euro Stock
+,,,,,,,,,,,,,,,,,Allianz SE (ALV.DE),ALV.DE,Euro Stock
+,,,,,,,,,,,,,,,,,ENGIE SA (ENGI.PA),ENGI.PA,Euro Stock
+,,,,,,,,,,,,,,,,,LVMH Moët Hennessy Louis Vuitton (MC.PA),MC.PA,Euro Stock
+,,,,,,,,,,,,,,,,,Eni SpA (ENI.MI),ENI.MI,Euro Stock
+,,,,,,,,,,,,,,,,,BNP Paribas SA (BNP.PA),BNP.PA,Euro Stock
+,,,,,,,,,,,,,,,,,Assicurazioni Generali (G.MI),G.MI,Euro Stock
+,,,,,,,,,,,,,,,,,Deutsche Post AG (DPW.DE),DPW.DE,Euro Stock
+,,,,,,,,,,,,,,,,,Airbus Group SE (AIR.PA),AIR.PA,Euro Stock
+,,,,,,,,,,,,,,,,,ASML HOLDING (ASML.AS),ASML.AS,Euro Stock
+,,,,,,,,,,,,,,,,,ING GROEP (INGA.AS),INGA.AS,Euro Stock
+,,,,,,,,,,,,,,,,,Bayer AG (BAYN.DE),BAYN.DE,Euro Stock
+,,,,,,,,,,,,,,,,,Fresenius SE & Co (FRE.DE),FRE.DE,Euro Stock
+,,,,,,,,,,,,,,,,,Bayerische Motoren Werke Aktiengesellschaft (BMW.DE),BMW.DE,Euro Stock
+,,,,,,,,,,,,,,,,,Deutsche Bank AG (DBK.DE),DBK.DE,Euro Stock
