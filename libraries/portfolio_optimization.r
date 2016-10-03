@@ -30,6 +30,6 @@ efficient.portfolio.risk <- function(er, cov.mat, target.risk, shorts=TRUE)
 
 getReturns.monthly = function(ticker, from = "1927-01-01") {
   ticker <- getSymbols(ticker, from = as.Date(from))
-  MonthRet <- monthlyReturn(get(ticker))
+  MonthRet <- monthlyReturn(get(ticker))*100
   MonthRet
 }
