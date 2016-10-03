@@ -1,4 +1,16 @@
 library(quantmod)
+storePath = "/home/ismael/Documents/portfolio-management/Dividends/"
+
+getDivs = function(tickers){
+  index <- 0
+  for (ticker in rev(tickers)) {
+    index <- index + 1
+    print(paste(index, "of", length(tickers), "items processed :",ticker))
+    divs <- getDividends(ticker, auto.assign=FALSE)
+    colnames(divs) <- c("Dividend")
+    write.csv(t(divs), file = paste(storePath,ticker,".csv", sep = ""))
+  }
+}
 
 sp500 <- c("MMM", "ABT", "ABBV", "ACN", "ATVI", "AYI", "ADBE", "AAP", "AES", "AET", "AFL", "AMG", 
            "A", "APD", "AKAM", "ALK", "ALB", "AA", "AGN", "LNT", "ALXN", "ALLE", "ADS", "ALL", "GOOGL",
@@ -39,15 +51,6 @@ sp500 <- c("MMM", "ABT", "ABBV", "ACN", "ATVI", "AYI", "ADBE", "AAP", "AES", "AE
            "WHR","WFM", "WMB", "WLTW", "WEC", "WYN", "WYNN", "XEL", "XRX", "XLNX", "XL", "XYL", "YHOO", "YUM",
            "ZBH", "ZION", "ZTS")
 
-sp500_div <- NULL
-index <- 0
-for (ticker in rev(sp500)) {
-  index <- index + 1
-  print(paste(index, "of", length(sp500), "items processed :",ticker))
-  divs <- getDividends(ticker, auto.assign=FALSE)
-  colnames(divs) <- c(ticker)
-  sp500_div <- merge(divs, sp500_div)
-}
-head(sp500_div)
+eurostoxx <- c("ABI.BR", "CA.PA", "AI.PA", "ORA.PA", "ENEL.MI", "PHIA.AS", "DTE.DE", "EI.PA", "IBE.MC", "OR.PA", "BN.PA", "SU.PA", "ITX.MC", "SAF.PA", "SAN.PA", "BBVA.MC", "ALV.DE", "ENGI.PA", "MC.PA", "ENI.MI", "BNP.PA", "G.MI", "DPW.DE", "AIR.PA", "ASML.AS", "INGA.AS", "BAYN.DE", "FRE.DE", "BMW.DE", "DBK.DE")
 
-write.csv(t(sp500_div), file = "/home/ismael/Documents/portfolio-management/sp500_divs_aux.csv")
+getDivs(sp500)
