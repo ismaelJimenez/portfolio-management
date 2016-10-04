@@ -9,7 +9,7 @@ getDivs = function(tickers){
     print(paste(index, "of", length(tickers), "items processed :",ticker))
     divs <- colSums(getDividends(ticker, auto.assign=FALSE, from=Sys.Date()-365))
     #write.csv(t(divs), file = paste(storePath,ticker,".csv", sep = ""))
-    total_divs <- merge(divs,total_divs)
+    total_divs <- cbind(divs,total_divs)
   }
   colnames(total_divs) <- tickers
   total_divs
@@ -61,10 +61,5 @@ eurostoxx <- c("ABI.BR", "CA.PA", "AI.PA", "ORA.PA", "ENEL.MI", "PHIA.AS", "DTE.
 total_tickers <- c(sp500, vanguardETFs, eurostoxx)
 
 total_divs <- getDivs(total_tickers)
-head(total_divs)
 
-divs1 <- colSums(getDividends("VIG", auto.assign=FALSE, from=Sys.Date()-365))
-divs2 <- colSums(getDividends("VUG", auto.assign=FALSE, from=Sys.Date()-365))
-
-
-write.csv(t(total_divs), file = "/home/ismael/Documents/portfolio-management/Dividends_New.csv", na="")
+write.csv(t(total_divs), file = "/home/ismael/Documents/portfolio-management/Yield.csv", na="")
