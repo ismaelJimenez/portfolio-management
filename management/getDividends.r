@@ -3,13 +3,16 @@ storePath = "/home/ismael/Documents/portfolio-management/Dividends/"
 
 getDivs = function(tickers){
   index <- 0
+  total_divs <- NULL
   for (ticker in rev(tickers)) {
     index <- index + 1
     print(paste(index, "of", length(tickers), "items processed :",ticker))
-    divs <- getDividends(ticker, auto.assign=FALSE)
-    colnames(divs) <- c("Dividend")
-    write.csv(t(divs), file = paste(storePath,ticker,".csv", sep = ""))
+    divs <- colSums(getDividends(ticker, auto.assign=FALSE, from=Sys.Date()-365))
+    #write.csv(t(divs), file = paste(storePath,ticker,".csv", sep = ""))
+    total_divs <- merge(divs,total_divs)
   }
+  colnames(total_divs) <- tickers
+  total_divs
 }
 
 sp500 <- c("MMM", "ABT", "ABBV", "ACN", "ATVI", "AYI", "ADBE", "AAP", "AES", "AET", "AFL", "AMG", 
@@ -51,6 +54,17 @@ sp500 <- c("MMM", "ABT", "ABBV", "ACN", "ATVI", "AYI", "ADBE", "AAP", "AES", "AE
            "WHR","WFM", "WMB", "WLTW", "WEC", "WYN", "WYNN", "XEL", "XRX", "XLNX", "XL", "XYL", "YHOO", "YUM",
            "ZBH", "ZION", "ZTS")
 
+vanguardETFs <- c("VIG", "VUG", "VYM", "VV", "MGC", "MGK", "MGV", "VOO", "VTI", "VTV", "VXF", "VO", "VOT", "VOE", "VB", "VBK", "VBR") 
+
 eurostoxx <- c("ABI.BR", "CA.PA", "AI.PA", "ORA.PA", "ENEL.MI", "PHIA.AS", "DTE.DE", "EI.PA", "IBE.MC", "OR.PA", "BN.PA", "SU.PA", "ITX.MC", "SAF.PA", "SAN.PA", "BBVA.MC", "ALV.DE", "ENGI.PA", "MC.PA", "ENI.MI", "BNP.PA", "G.MI", "DPW.DE", "AIR.PA", "ASML.AS", "INGA.AS", "BAYN.DE", "FRE.DE", "BMW.DE", "DBK.DE")
 
-getDivs(sp500)
+total_tickers <- c(sp500, vanguardETFs, eurostoxx)
+
+total_divs <- getDivs(total_tickers)
+head(total_divs)
+
+divs1 <- colSums(getDividends("VIG", auto.assign=FALSE, from=Sys.Date()-365))
+divs2 <- colSums(getDividends("VUG", auto.assign=FALSE, from=Sys.Date()-365))
+
+
+write.csv(t(total_divs), file = "/home/ismael/Documents/portfolio-management/Dividends_New.csv", na="")
