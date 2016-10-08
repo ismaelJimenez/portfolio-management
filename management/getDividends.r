@@ -1,18 +1,31 @@
 library(quantmod)
-storePath = "/home/ismael/Documents/portfolio-management/Dividends/"
+library(xlsx)
+storePath = "/home/ismael/Documents/portfolio-management/"
 
-getDivs = function(tickers){
+getYield = function(tickers){
   index <- 0
   total_divs <- NULL
   for (ticker in rev(tickers)) {
     index <- index + 1
     print(paste(index, "of", length(tickers), "items processed :",ticker))
     divs <- colSums(getDividends(ticker, auto.assign=FALSE, from=Sys.Date()-365))
-    #write.csv(t(divs), file = paste(storePath,ticker,".csv", sep = ""))
     total_divs <- cbind(divs,total_divs)
   }
   colnames(total_divs) <- tickers
+  rownames(total_divs) <- "Dividends"
   total_divs
+}
+
+getDivs = function(tickers){
+  index <- 0
+  for (ticker in rev(tickers)) {
+    index <- index + 1
+    print(paste(index, "of", length(tickers), "items processed :",ticker))
+    divs <- getDividends(ticker, auto.assign=FALSE)
+    colnames(total_divs) <- ticker
+    #write.csv(t(divs), file = paste(storePath,ticker,".csv", sep = ""))
+    write.xlsx(divs, file = paste(storePath,"Dividends",".xlsx", sep = ""), sheetName=ticker,append=TRUE)
+  }
 }
 
 sp500 <- c("MMM", "ABT", "ABBV", "ACN", "ATVI", "AYI", "ADBE", "AAP", "AES", "AET", "AFL", "AMG", 
@@ -58,8 +71,15 @@ vanguardETFs <- c("VIG", "VUG", "VYM", "VV", "MGC", "MGK", "MGV", "VOO", "VTI", 
 
 eurostoxx <- c("ABI.BR", "CA.PA", "AI.PA", "ORA.PA", "ENEL.MI", "PHIA.AS", "DTE.DE", "EI.PA", "IBE.MC", "OR.PA", "BN.PA", "SU.PA", "ITX.MC", "SAF.PA", "SAN.PA", "BBVA.MC", "ALV.DE", "ENGI.PA", "MC.PA", "ENI.MI", "BNP.PA", "G.MI", "DPW.DE", "AIR.PA", "ASML.AS", "INGA.AS", "BAYN.DE", "FRE.DE", "BMW.DE", "DBK.DE")
 
-total_tickers <- c(sp500, vanguardETFs, eurostoxx)
+total_tickers <- c(vanguardETFs)#c(sp500, vanguardETFs, eurostoxx)
 
-total_divs <- getDivs(total_tickers)
+total_divs <- getYield(total_tickers)
+
+getDivs(total_tickers)
 
 write.csv(t(total_divs), file = "/home/ismael/Documents/portfolio-management/Yield.csv", na="")
+
+
+library(xlsx)
+write.xlsx(t(total_divs), file="/home/ismael/Documents/portfolio-management/Yiel.xlsx", sheetName="sheet1")
+write.xlsx(t(total_divs), file="/home/ismael/Documents/portfolio-management/Yiel.xlsx", sheetName="sheet2", append=TRUE)
